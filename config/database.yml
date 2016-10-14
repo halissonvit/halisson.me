@@ -8,11 +8,11 @@ default: &default
 
 development:
   <<: *default
-  database: rails5-base-project-dev
+  database: halisson-me-dev
 
 test:
   <<: *default
-  database: rails5-base-project-test
+  database: halisson-me-test
 
 production:
   <<: *default
